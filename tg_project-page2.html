@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Freelancer portfolio</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
     <nav class="nav">
         <div class="container">
@@ -19,8 +21,9 @@
                 </button>
 
                 <ul class="nav-list">
-                    <li class="nav-list__item"><a href="./index.html" class="nav-list__link">Projects</a></li>
-                    <li class="nav-list__item"><a href="./skills.html" class="nav-list__link nav-list__link--active">Skills</a></li>
+                    <li class="nav-list__item"><a href="./index.html"
+                            class="nav-list__link nav-list__link--active">Projects</a></li>
+                    <li class="nav-list__item"><a href="./skills.html" class="nav-list__link">Skills</a></li>
                     <li class="nav-list__item"><a href="./contacts.html" class="nav-list__link">Contacts</a></li>
                 </ul>
             </div>
@@ -29,30 +32,22 @@
 
     <main class="section">
         <div class="container">
-                <h1 class="title-1">Skills</h1>
+            <div class="project-details">
 
-                <ul class="content-list">
-                    <li class="content-list__item">
-                        <h2 class="title-2">Frontend</h2>
-                        <p>JavaScript, HTML, CSS, BootStrap, TailwindCSS, StyledComponents</p>
-                    </li>
+                <h1 class="title-1">Voices of strangers</h1>
 
-                    <li class="content-list__item">
-                        <h2 class="title-2">Backend</h2>
-                        <p>Django, MySQL, Sqlite3, PHP, Laravel</p>
-                    </li>
+                <img src="./img/projects/tg_p_2.jpg" alt="" class="project-details__cover">
 
-                    <li class="content-list__item">
-                        <h2 class="title-2">Telegram Bot</h2>
-                        <p>Aiogram</p>
-                    </li>
+                <div class="project-details__desc">
+                    <p>Skills: Aiogram, Sqlite3 </p>
+                </div>
+                
+                <a href="https://github.com/macsimir/oreshik" class="btn-outline">
+                    <img src="./img/icons/gitHub-black.svg" alt="">
+                    GitHub repo
+                </a>
 
-                    <li class="content-list__item">
-                        <h2 class="title-2">Parsing</h2>
-                        <p>Beautifulsoup, Lxml</p>
-                    </li>
-                </ul>
-
+            </div>
         </div>
     </main>
 
@@ -76,4 +71,5 @@
     <script src="./js/main.js"></script>
 
 </body>
+
 </html>
