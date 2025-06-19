@@ -7,6 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/main.css">
+    <style>
+        /* Добавьте эти стили в ваш main.css или оставьте здесь */
+        .project-images {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .project-images img {
+            max-height: 700px;
+            /* Вы можете настроить высоту по своему вкусу */
+            width: auto;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 
 <body>
@@ -34,18 +51,22 @@
         <div class="container">
             <div class="project-details">
 
-                <h1 class="title-1">Voices of strangers</h1>
+                <h1 class="title-1">Store Web App Bot</h1>
 
-                <img src="./img/projects/tg_p1_2.png" alt="" class="project-details__cover">
-                <img src="./img/projects/tg_p1_3.png" alt="" class="project-details__cover">
+                <div class="project-images">
+                    <img src="./img/projects/storebot2.png" alt="Store Bot Screenshot 1">
+                    <img src="./img/projects/storebot3.png" alt="Store Bot Screenshot 2">
+                    <img src="./img/projects/storebot4.png" alt="Store Bot Screenshot 2">
+                    <img src="./img/projects/storebot5.png" alt="Store Bot Screenshot 3">
+                </div>
 
                 <div class="project-details__desc">
-                    <p>Популярный бот в Telegram: обменивайся голосовыми сообщениями с незнакомцами</p>
+                    <p class="text">Web App Bot с рефиральной системой</p>
                     <br>
-                    <p>Stack: Aiogram,FastApi,Sqlite3</p>
+                    <p>Stack: Aiogram,FastApi,Sqlite3 </p>
                 </div>
-<!-- 
-                <a href="#!" class="btn-outline">
+
+                <!-- <a href="https://github.com/macsimir/oreshik" class="btn-outline">
                     <img src="./img/icons/gitHub-black.svg" alt="">
                     GitHub repo
                 </a> -->
@@ -54,15 +75,14 @@
         </div>
     </main>
 
-
-
     <footer class="footer">
         <div class="container">
             <div class="footer__wrapper">
                 <ul class="social">
-                    <li class="social__item"><a href="https://github.com/macsimir"><img src="./img/icons/gitHub.svg" alt="Link"></a></li>
+                    <li class="social__item"><a href="https://github.com/macsimir"><img src="./img/icons/gitHub.svg"
+                                alt="Link"></a></li>
                 </ul>
-    
+
             </div>
         </div>
     </footer>
