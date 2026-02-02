@@ -11,83 +11,65 @@ export const siteConfig = {
   },
   aboutMe:
   //Испрвить
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!", 
+    "I develop websites, Telegram bots, parsers, and other programs on a freelance basis. I'd be happy to work with you!",
   skills: ["Python", "Django", "Flask", "FastAPI", "C++", "Docker"],
   projects: [
     {
       name: "Tomarket App",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-    link: "https://t.me/Tomarket_ai_bot/app?startapp=00009JGa",
+      description:"Telegram bot clicker using Web App",
+      link: "https://t.me/Tomarket_ai_bot/app?startapp=00009JGa",
       skills: ["Aiogram3", "FastAPI", "SQLite","JS"],
     },
-    // {
-    //   name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-    //   description:
-    //     "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-    //   link: "https://fullstackextensions.com/?ref=devportfolio",
-    //   skills: ["React", "Node.js", "AWS"],
-    // },
     {
-        name: "Ai_dai_bot",
-      description:
-        "Telegram bot integrated with all modern neural networks",
+        name: "Telegram Shop Bot",
+        description:"Telegram sales bot for replenishing all services. API integration for replenishing online services",
+        link: "https://t.me/YepShopBot",
+        skills: ["Aiogram3", "FastAPI"],
+    },
+    {
+        name: "AI Bot",
+        description:"Telegram bot integrated with all modern neural networks",
         link: "https://t.me/Ai_dai_bot",
-      skills: ["Python", "Aiogram3", "MySQL"],
+        skills: ["Python", "Aiogram3", "MySQL"],
     },
   ],
   experience: [
-    {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
+      {
+          company: "self-employment",
+          title: "Freelance",
+          dateRange: "2022 - Present",
+            bullets: [
+                "Made more than 100 orders",
+                "Developed large projects for working with finances",
+            ],
+      },
+      {
+          company: "Digital Agency",
+          title: "Python developer",
+          dateRange: "2020 - 2023",
+          bullets: [
+              "Worked on a team developing Telegram bots and parsers",
+              "Developed telegram web bot applications",
+          ],
+      },
   ],
-  education: [
-    {
-      school: "ETU",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
-  ],
+    education: [
+        {
+            school: "ETU",
+            degree: "Bachelor of Science in Computer Science",
+            dateRange: "2025 - Present",
+            achievements: [
+                "Average score 4.40",
+            ],
+        },
+        {
+            school: "Online Platform",
+            degree: "Full Stack Development Certificate",
+            dateRange: "2022",
+            achievements: [
+                "Built 10+ portfolio projects",
+                "Specialized in Django and FastAPI",
+            ],
+        },
+    ],
 };
