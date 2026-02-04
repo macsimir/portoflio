@@ -32,6 +32,12 @@ export const siteConfig = {
         link: "https://t.me/Ai_dai_bot",
         skills: ["Python", "Aiogram3", "MySQL"],
     },
+    {
+        name: "voices of strangers",
+        description: "Telegram bot for listening to voice messages from strangers.",
+        link: "https://t.me/VoicesOfStrangers_bot",
+        skills: ["Python", "Aiogram3", "Redis"],
+      },
   ],
   experience: [
       {
@@ -53,7 +59,7 @@ export const siteConfig = {
           ],
       },
   ],
-    bots: [  // Добавьте новый раздел
+  bots: [  // Добавьте новый раздел
         {
             name: "Tomarket App",
             description: "Telegram bot clicker using Web App",
