@@ -53,6 +53,14 @@ export const siteConfig = {
           ],
       },
   ],
+    bots: [  // Добавьте новый раздел
+        {
+            name: "Tomarket App",
+            description: "Telegram bot clicker using Web App",
+            link: "https://t.me/Tomarket_ai_bot/app?startapp=00009JGa",
+            skills: ["Aiogram3", "FastAPI", "SQLite", "JS"],
+        },
+    ],
     education: [
         {
             school: "ETU",
