@@ -33,7 +33,7 @@ export const siteConfig = {
         skills: ["Python", "Aiogram3", "MySQL"],
     },
     {
-        name: "voices of strangers",
+        name: "Voices of strangers",
         description: "Telegram bot for listening to voice messages from strangers.",
         link: "https://t.me/VoicesOfStrangers_bot",
         skills: ["Python", "Aiogram3", "Redis"],
